@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Employee System</string>
+    <string name="add_update">Add/Update</string>
+    <string name="view_all">View All</string>
+
+    <string name="action_add">Add/Update</string>
+    <string name="action_view">View All</string>
+    <string name="action_search">Search</string>
+</resources>

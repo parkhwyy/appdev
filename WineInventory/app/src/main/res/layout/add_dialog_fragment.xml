@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2d9e6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Name of wine:"
+        android:layout_alignBaseline="@+id/nameText"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Brand:"
+        android:layout_alignBaseline="@+id/brandText"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Type:"
+        android:layout_alignBaseline="@+id/typeText"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Year:"
+        android:layout_alignBaseline="@+id/yearText"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:layout_alignBaseline="@+id/quantityText"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cost:"
+        android:layout_alignBaseline="@+id/priceText"
+        android:layout_alignParentLeft="true"/>
+
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Name of wine"
+        android:layout_toRightOf="@id/name"/>
+
+    <EditText
+        android:id="@+id/brandText"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:layout_marginTop="0dp"
+        android:hint="Brand"
+        android:layout_toRightOf="@id/brand"/>
+
+    <EditText
+        android:id="@+id/typeText"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brandText"
+        android:layout_marginTop="0dp"
+        android:hint="Type"
+        android:layout_toRightOf="@id/type"/>
+
+    <EditText
+        android:id="@+id/yearText"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/typeText"
+        android:layout_marginTop="0dp"
+        android:hint="Year"
+        android:layout_toRightOf="@id/year"/>
+
+    <EditText
+        android:id="@+id/quantityText"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yearText"
+        android:layout_marginTop="0dp"
+        android:hint="Quantity"
+        android:layout_toRightOf="@id/quantity"/>
+
+    <EditText
+        android:id="@+id/priceText"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantityText"
+        android:layout_marginTop="0dp"
+        android:hint="Price"
+        android:layout_toRightOf="@id/price"/>
+
+</RelativeLayout>

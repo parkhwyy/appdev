@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parentLayout">
+
+    <TextView
+        android:id="@+id/wineName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="#330033"
+        android:gravity="center_vertical"
+        android:text="Example"
+        android:textAlignment="center"
+        android:textColor="#f2d9e6"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bad_script" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/wineId"/>
+
+</FrameLayout>

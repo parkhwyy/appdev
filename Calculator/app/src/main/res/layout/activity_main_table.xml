@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:gravity="center">
+        <EditText
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:layout_span="4"
+            android:id="@+id/ansText"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="@string/_default"
+            android:textAlignment="textEnd"
+            android:textColor="#FFFFFF"
+            android:textSize="64sp"
+            android:textStyle="normal" tools:targetApi="o" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:layout_span="3"
+            android:id="@+id/buttonac"
+            android:layout_height="86dp"
+            android:backgroundTint="#B2B1B0"
+            android:text="@string/_ac"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/buttondiv"
+            android:layout_height="86dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/_div"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button7"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_7"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button8"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_8"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button9"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_9"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/buttonmul"
+            android:layout_height="86dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/_mul"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button4"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_4"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button5"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_5"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button6"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_6"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/buttonsub"
+            android:layout_height="86dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/_sub"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button1"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button2"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_2"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/button3"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_3"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/buttonadd"
+            android:layout_height="86dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/_add"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:layout_span="3"
+            android:id="@+id/button0"
+            android:layout_height="86dp"
+            android:backgroundTint="#4D4E4F"
+            android:text="@string/_0"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/buttonans"
+            android:layout_height="86dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/_ans"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="normal" tools:targetApi="o"/>
+    </TableRow>
+
+</TableLayout>
