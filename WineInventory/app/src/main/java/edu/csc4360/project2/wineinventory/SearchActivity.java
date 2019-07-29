@@ -58,6 +58,14 @@ public class SearchActivity extends AppCompatActivity {
         ratebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Cursor result = db.search(brandText.getText().toString());
+                if (result.getCount() == 0) {
+                    //message
+                    showMessage("Error","no data");
+                    return;
+                }
+                
                 if (!isFragmentDisplayed) {
                     displayFragment();
                 } else {
