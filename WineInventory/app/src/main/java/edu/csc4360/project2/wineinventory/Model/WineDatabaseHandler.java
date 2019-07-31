@@ -112,6 +112,14 @@ public class WineDatabaseHandler extends SQLiteOpenHelper {
         database = getWritableDatabase();
         return database.delete(WINE_TABLE, "Wine_id = ?", new String[]{wineId});
     }
+    
+    //This delete metohd is used in the ViewActivity
+    public Integer deletename(String winename ){
+        database = getWritableDatabase();
+        return database.delete((WINE_TABLE), "model = ?", new String[]{winename});
+
+    }
+
 
 
 }

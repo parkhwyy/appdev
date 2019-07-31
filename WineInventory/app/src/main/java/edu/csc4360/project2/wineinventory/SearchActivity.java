@@ -1,11 +1,5 @@
 package edu.csc4360.project2.wineinventory;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AlertDialog;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -16,6 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import edu.csc4360.project2.wineinventory.Model.WineDatabaseHandler;
 
@@ -65,7 +65,7 @@ public class SearchActivity extends AppCompatActivity {
                     showMessage("Error","no data");
                     return;
                 }
-                
+
                 if (!isFragmentDisplayed) {
                     displayFragment();
                 } else {
@@ -91,8 +91,6 @@ public class SearchActivity extends AppCompatActivity {
         super.onSaveInstanceState(savedInstanceState);
     }
 
-    /*
-
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v,
                                     ContextMenu.ContextMenuInfo menuInfo) {
@@ -111,8 +109,6 @@ public class SearchActivity extends AppCompatActivity {
                 return super.onContextItemSelected(item);
         }
     }
-
-    */
 
     public void viewAll(){
         Cursor result = db.getAllData();

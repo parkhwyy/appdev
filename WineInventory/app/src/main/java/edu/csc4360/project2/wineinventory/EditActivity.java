@@ -68,7 +68,6 @@ public class EditActivity extends AppCompatActivity {
         exampleDialog.show(getSupportFragmentManager(), "example dialog");
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {

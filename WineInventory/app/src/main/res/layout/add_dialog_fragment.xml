@@ -9,6 +9,7 @@
         android:id="@+id/name"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="Name of wine:"
         android:layout_alignBaseline="@+id/nameText"
         android:layout_alignParentLeft="true"/>
@@ -101,5 +102,14 @@
         android:layout_marginTop="0dp"
         android:hint="Price"
         android:layout_toRightOf="@id/price"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/priceText"
+        android:src="@drawable/addphoto"/>
 
 </RelativeLayout>
